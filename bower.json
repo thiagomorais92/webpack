@@ -1,0 +1,22 @@
+{
+  "name": "tryWebpack",
+  "authors": [
+    "Thiago Araújo de Morais <araujodemorais.t@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
