@@ -5,7 +5,12 @@
 
 	var myApp  = require("./module.js");
 
+	
+
 	myApp.config(function($stateProvider) {
+	  debugger;
+	  var loginState = require("./app/pages/loginPage/loginRoute.js");
+
 	  var helloState = {
 	    name: 'hello',
 	    url: '/hello',
@@ -20,5 +25,6 @@
 
 	  $stateProvider.state(helloState);
 	  $stateProvider.state(aboutState);
+	  $stateProvider.state(loginState);
 	});
 });
