@@ -5,12 +5,12 @@
 
 	var myApp  = require("./module.js");
 
+	var loginState = require("./app/pages/loginPage/loginRoute.js");
 	
 
 	myApp.config(function($stateProvider) {
-	  debugger;
-	  var loginState = require("./app/pages/loginPage/loginRoute.js");
-
+	  
+	  
 	  var helloState = {
 	    name: 'hello',
 	    url: '/hello',

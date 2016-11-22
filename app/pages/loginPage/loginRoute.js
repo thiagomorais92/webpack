@@ -1,3 +1,5 @@
+require("./controller/loginController.js");
+
 module.exports = {
 	  	name: 'login',
 	  	url:'/login',
