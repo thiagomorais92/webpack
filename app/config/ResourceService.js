@@ -1,5 +1,5 @@
-var myApp  = require("./module.js");
-
+//var myApp  = require("../../../module.js");
+var myApp = angular.module('myApp');
 
 myApp.factory('ResourceService',['Restangular',function(Restangular){
 
