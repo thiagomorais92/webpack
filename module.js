@@ -1,1 +1,1 @@
-module.exports = angular.module("myApp",['ui.router','restangular']);
+module.exports = angular.module("myApp",['ui.router','restangular','toaster', 'ngAnimate']);
