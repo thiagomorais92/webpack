@@ -1,3 +1,4 @@
 *bundle.js
 *app/components/*
 *node_modules/*
+.DS_Store
